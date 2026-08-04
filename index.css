@@ -753,49 +753,6 @@ footer{
     display: none;
 }
 
-/* .dark-btn{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 50px;
-    height: 50px;
-    border: 3px solid black;
-    border-radius: 50%;
-    background: black;
-    color: white;
-    cursor: pointer;
-    text-align: center;
-    line-height: 45px;
-    font-size: 25px;
-    z-index: 9999;
-}
-#dark:checked ~ .website{
-    background:#111;
-    color:white;
-}
-#dark:checked ~ .website .body{
-    background:#111;
-}
-#dark:checked ~ .website .nav .container,
-#dark:checked ~ .website .top-right-medium,
-#dark:checked ~ .website .bottom-right-medium,
-#dark:checked ~ .website .bor1-medium,
-#dark:checked ~ .website .bor2-medium,
-#dark:checked ~ .website .bor3-medium,
-#dark:checked ~ .website .text-border-img,
-#dark:checked ~ .website .containr p{
-    background:#222;
-    color:white;
-} 
-#dark:checked ~ .website a,
-#dark:checked ~ .website h1,
-#dark:checked ~ .website h2,
-#dark:checked ~ .website h3,
-#dark:checked ~ .website h4,
-#dark:checked ~ .website p,
-#dark:checked ~ .website span{
-    color:white;
-} */
  #dark{
     display: none;
 }
