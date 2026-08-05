@@ -8,11 +8,17 @@
   </head>
 
   <body>
-    <label for="dark" class="dark-btn">
-    🌙
-</label>
-<div class="website">
-    <!-----------------part1----------->
+    <!---------------dark-mode--------------->
+    <div class="dark">
+      <button onclick="myFunction()">🌙</button>
+      <script>
+        function myFunction() {
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+        }
+      </script>
+    </div>
+    <!-----------------part1--------------->
     <div class="body">
       <div class="container">
         <div>
@@ -64,7 +70,7 @@
       </div>
     </div>
     <br /><br />
-    <!--------------part2-------------->
+    <!--------------part2------------------>
     <div class="medium">
       <div class="left-medium">
         <div class="titel-medium">
@@ -199,8 +205,8 @@
         </div>
       </div>
     </div>
-    <br >
-    <br >
+    <br />
+    <br />
     <!-------------- part3 ------------------>
     <div class="text">
       <div class="text-titel">
@@ -436,7 +442,6 @@
         </div>
       </div>
     </footer>
-    <input type="checkbox" id="dark">
     <!---------------------------------- --------------------------------------------- -->
   </body>
 </html>
